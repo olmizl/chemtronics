@@ -1,0 +1,64 @@
+@import "vars";
+@import "mixin";
+
+.fullBody {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+// fullpage custom
+.fp-watermark {
+  display: none;
+}
+#fp-nav {
+  &.displayNone {
+    display: none;
+  }
+  &.fp-right {
+    right: auto;
+    left: 40px;
+  }
+  ul {
+    li {
+      margin-bottom: 15px;
+      &:hover {
+        a {
+          &.active span,
+          span {
+            height: 5px;
+            width: 5px;
+            margin: -2px;
+          }
+        }
+      }
+      a {
+        padding: 4px;
+        &.active {
+          border: 1px solid #fff;
+          border-radius: 100%;
+          &.activebk {
+            border: 1px solid #222;
+            span {
+              background-color: #222;
+            }
+          }
+          span {
+            margin: -2px;
+            width: 5px;
+            height: 5px;
+            background-color: #fff;
+          }
+        }
+        span {
+          width: 5px;
+          background-color: rgba(0, 0, 0, 0.4);
+          height: 5px;
+        }
+      }
+    }
+  }
+}
+.fp-overflow {
+  overflow-y: hidden;
+}

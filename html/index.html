@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=2.0" />
+    <title>켐트로닉스</title>
+    <link rel="shortcut icon" href="../images/layout/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&family=Play:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../css/splitting.css" />
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/fullpage.css" />
+
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/splitting.min.js"></script>
+    <script src="../js/greensock/gsap.min.js"></script>
+    <script src="../js/fullpage.min.js"></script>
+  </head>
+
+  <body class="fullBody">
+    <main id="main">
+      <section class="section">
+        <div id="mainVisual">
+          <header id="header">
+            <h1 id="logo">
+              <a href="index.html"><img src="../images/layout/logo.png" alt="chemtronics" /></a>
+            </h1>
+            <nav id="gnb">
+              <ul class="list">
+                <li class="listItem">
+                  <a href="#" class="depth01">COMPANY</a>
+                  <div class="depth02">
+                    <ul class="depth02Item">
+                      <li class="depth02Txt">
+                        <ul>
+                          <li><a href="CEO 인사말">CEO 인사말</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="비전">비전</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="환경안전보건">환경안전보건</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="연혁 / 수상">연혁 / 수상</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="CI">CI</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="사업장 소개">사업장 소개</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="계열사 소개">계열사 소개</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="고객문의">고객문의</a><span class="material-icons"> chevron_right </span></li>
+                        </ul>
+                      </li>
+                      <li class="depth02Img">
+                        <div>
+                          <h1>Company</h1>
+                          <h2>새로운 미래창조를 위해<br />켐트로닉스가 앞장섭니다.</h2>
+                        </div>
+                        <img src="../images/layout/gnb_menu2_img.jpg" alt="COMPANY 사진" />
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="listItem">
+                  <a href="#" class="depth01">BUSINESS</a>
+                  <div class="depth02">
+                    <ul class="depth02Item">
+                      <li class="depth02Txt">
+                        <ul>
+                          <li><a href="전자사업">전자사업</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="화학사업">화학사업</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="디스플레이사업">디스플레이사업</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="자율주행사업">자율주행사업</a><span class="material-icons"> chevron_right </span></li>
+                        </ul>
+                      </li>
+                      <li class="depth02Img">
+                        <div>
+                          <h1>Company</h1>
+                          <h2>새로운 미래창조를 위해<br />켐트로닉스가 앞장섭니다.</h2>
+                        </div>
+                        <img src="../images/layout/gnb_menu1_img.jpg" alt="COMPANY 사진" />
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="listItem">
+                  <a href="#" class="depth01">IR</a>
+                  <div class="depth02">
+                    <ul class="depth02Item">
+                      <li class="depth02Txt">
+                        <ul>
+                          <li><a href="주가정보">주가정보</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="재무정보">재무정보</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="결산정보">결산정보</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="공시정보">공시정보</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="IR 자료실">IR 자료실</a><span class="material-icons"> chevron_right </span></li>
+                        </ul>
+                      </li>
+                      <li class="depth02Img">
+                        <div>
+                          <h1>Company</h1>
+                          <h2>새로운 미래창조를 위해<br />켐트로닉스가 앞장섭니다.</h2>
+                        </div>
+                        <img src="../images/layout/gnb_menu3_img.jpg" alt="COMPANY 사진" />
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="listItem">
+                  <a href="#" class="depth01">PR</a>
+                  <div class="depth02">
+                    <ul class="depth02Item">
+                      <li class="depth02Txt">
+                        <ul>
+                          <li><a href="뉴스">뉴스</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="자료실">자료실</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="홍보갤러리">홍보갤러리</a><span class="material-icons"> chevron_right </span></li>
+                        </ul>
+                      </li>
+                      <li class="depth02Img">
+                        <div>
+                          <h1>Company</h1>
+                          <h2>새로운 미래창조를 위해<br />켐트로닉스가 앞장섭니다.</h2>
+                        </div>
+                        <img src="../images/layout/gnb_menu4_img.jpg" alt="COMPANY 사진" />
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="listItem">
+                  <a href="#" class="depth01">HR</a>
+                  <div class="depth02">
+                    <ul class="depth02Item">
+                      <li class="depth02Txt">
+                        <ul>
+                          <li><a href="인사제도">인사제도</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="직무소개">직무소개</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="채용공고">채용공고</a><span class="material-icons"> chevron_right </span></li>
+                        </ul>
+                      </li>
+                      <li class="depth02Img">
+                        <div>
+                          <h1>Company</h1>
+                          <h2>새로운 미래창조를 위해<br />켐트로닉스가 앞장섭니다.</h2>
+                        </div>
+                        <img src="../images/layout/gnb_menu5_img.jpg" alt="COMPANY 사진" />
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="listItem">
+                  <a href="#" class="depth01">윤리경영</a>
+                  <div class="depth02">
+                    <ul class="depth02Item">
+                      <li class="depth02Txt">
+                        <ul>
+                          <li><a href="임직원 행동지침">임직원 행동지침</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="신고서 작성">신고서 작성</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="신고서 확인">신고서 확인</a><span class="material-icons"> chevron_right </span></li>
+                          <li><a href="분쟁광물 관리정책">분쟁광물 관리정책</a><span class="material-icons"> chevron_right </span></li>
+                        </ul>
+                      </li>
+                      <li class="depth02Img">
+                        <div>
+                          <h1>Company</h1>
+                          <h2>새로운 미래창조를 위해<br />켐트로닉스가 앞장섭니다.</h2>
+                        </div>
+                        <img src="../images/layout/gnb_menu6_img.jpg" alt="COMPANY 사진" />
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+            <div class="utilMenu">
+              <ul>
+                <li class="family">
+                  <a href="#"
+                    ><p>FAMILY</p>
+                    <span class="material-icons"> arrow_drop_down </span></a
+                  >
+                  <a href="#"><p>위츠</p></a>
+                  <a href="#"><p>자율주행사업</p></a>
+                  <a href="#"><p>비욘드아이</p></a>
+                </li>
+                <li class="kor">
+                  <a href="#"
+                    ><p>KOR</p>
+                    <span class="material-icons"> arrow_drop_down </span></a
+                  >
+                  <a href="#">ENG</a>
+                  <a href="#">CHI</a>
+                </li>
+              </ul>
+            </div>
+          </header>
+          <li class="spanMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </li>
+
+          <div class="subMenu">
+            <ul>
+              <li>
+                <h1>COMPANY</h1>
+                <div class="sub">
+                  <p><a href="#">CEO 인사말</a></p>
+                  <p><a href="#">버전</a></p>
+                  <p><a href="#">환경안전보건</a></p>
+                  <p><a href="#">연혁 / 수상</a></p>
+                  <p><a href="#">CI</a></p>
+                  <p><a href="#">사업장 소개</a></p>
+                  <p><a href="#">계열사 소개</a></p>
+                  <p><a href="#">고객문의</a></p>
+                </div>
+              </li>
+              <li>
+                <h1>BUSINESS</h1>
+                <div class="sub">
+                  <p><a href="#">전자사업</a></p>
+                  <p><a href="#">화학사업</a></p>
+                  <p><a href="#">디스플레이사업</a></p>
+                  <p><a href="#">자율주행사업</a></p>
+                </div>
+              </li>
+              <li>
+                <h1>IR</h1>
+                <div class="sub">
+                  <p><a href="#">주가정보</a></p>
+                  <p><a href="#">재무정보</a></p>
+                  <p><a href="#">결산정보</a></p>
+                  <p><a href="#">공시정보</a></p>
+                  <p><a href="#">IR 자료실</a></p>
+                </div>
+              </li>
+              <li>
+                <h1>PR</h1>
+                <div class="sub">
+                  <p><a href="#">뉴스</a></p>
+                  <p><a href="#">자료실</a></p>
+                  <p><a href="#">홍보갤러리</a></p>
+                </div>
+              </li>
+              <li>
+                <h1>HR</h1>
+                <div class="sub">
+                  <p><a href="#">인사제도</a></p>
+                  <p><a href="#">직무소개</a></p>
+                  <p><a href="#">채용공고</a></p>
+                </div>
+              </li>
+              <li>
+                <h1>윤리경영</h1>
+                <div class="sub">
+                  <p><a href="#">임직원 행동지침</a></p>
+                  <p><a href="#">신고서 작성</a></p>
+                  <p><a href="#">신고서 확인</a></p>
+                  <p><a href="#">분쟁광물 관리정책</a></p>
+                </div>
+              </li>
+              <li></li>
+            </ul>
+          </div>
+
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide" id="visual01">
+              <div class="txtBox">
+                <h1 class="title">ELECTRONIC BUSINESS</h1>
+                <p class="sub">혁신을 이끄는 IT의 진화,<br />인류의 더 풍요로운 삶에 기여하겠습니다.</p>
+              </div>
+            </li>
+            <li class="swiper-slide" id="visual02">
+              <div class="txtBox">
+                <h1 class="title">CHEMICAL BUSINESS</h1>
+                <p class="sub">끊임없는 혁신과 도전으로 지속가능한 미래기술을 이끌어가겠습니다.</p>
+              </div>
+            </li>
+            <li class="swiper-slide" id="visual03">
+              <div class="txtBox">
+                <h1 class="title">DISPLAY BUSINESS</h1>
+                <p class="sub">IT제품의 경량화 및 슬림화에 기여하여 제품의 가치를 향상시켜 나아가고 있습니다.</p>
+              </div>
+            </li>
+            <li class="swiper-slide" id="visual04">
+              <div class="txtBox">
+                <h1 class="title">AUTOMATED DRIVING<br />BUSINESS</h1>
+                <p class="sub">우리의 솔루션은 차세대 Connectivity와 ADAS를 구현하여,<br />기술을 넘어 행복을 지켜 나아갈 것입니다.</p>
+              </div>
+            </li>
+          </ul>
+          <div class="scroll">
+            <p>SCROLL DOWN</p>
+            <div>
+              <span></span>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="auto"><span class="material-icons autoPlay"> play_arrow </span><span class="material-icons autoStop"> pause </span></div>
+          <div class="loading">
+            <ul class="loadingList">
+              <li>
+                <div class="loadingTxt">
+                  <h1>전자</h1>
+                  <p>ELECTRONICS</p>
+                </div>
+                <span></span>
+              </li>
+              <li>
+                <div class="loadingTxt">
+                  <h1>화학</h1>
+                  <p>CHEMICAL</p>
+                </div>
+                <span></span>
+              </li>
+              <li>
+                <div class="loadingTxt">
+                  <h1>디스플레이</h1>
+                  <p>DISPLAY</p>
+                </div>
+                <span></span>
+              </li>
+              <li>
+                <div class="loadingTxt">
+                  <h1>자율주행</h1>
+                  <p>AUTOMATED DRIVING</p>
+                </div>
+                <span></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div id="section02">
+          <div class="sec02Swiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide"></li>
+              <li class="swiper-slide"></li>
+              <li class="swiper-slide"></li>
+              <li class="swiper-slide"></li>
+            </ul>
+            <div>
+              <h1>Global Technology</h1>
+              <p>세계적인 기술력으로 지속성장을 노력하는 선진기업, 켐트로닉스</p>
+            </div>
+          </div>
+          <div class="sec02Box">
+            <ul class="sec02Txt">
+              <li>
+                <div class="box">
+                  <h1>Company</h1>
+                  <ul class="companyList">
+                    <li>
+                      <a href="#"
+                        ><p>CEO인사말</p>
+                        <span class="material-icons"> chevron_right </span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><p>비전</p>
+                        <span class="material-icons"> chevron_right </span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><p>연혁/수상실적</p>
+                        <span class="material-icons"> chevron_right </span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><p>사업장 소개</p>
+                        <span class="material-icons"> chevron_right </span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><p>계열사 소개</p>
+                        <span class="material-icons"> chevron_right </span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="box">
+                  <h1>IR</h1>
+                  <ul class="companyList">
+                    <li>
+                      <a href="#"
+                        ><p>주가정보</p>
+                        <span class="material-icons"> chevron_right </span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><p>재무정보</p>
+                        <span class="material-icons"> chevron_right </span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><p>결산정보</p>
+                        <span class="material-icons"> chevron_right </span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><p>공시정보</p>
+                        <span class="material-icons"> chevron_right </span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><p>IR 자료실</p>
+                        <span class="material-icons"> chevron_right </span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <p>Automated Driving</p>
+                  <span>자율주행에서 필수적으로 갖추어야 할 핵심인 V2X/WAVE기술의 개발</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div id="section03">
+          <div class="title">
+            <h1>Information</h1>
+            <h3>고객의 모든 순간을 가치있게 만드는 Chemtronics</h3>
+          </div>
+          <ul class="sec03List">
+            <li class="listItem">
+              <div>
+                <span class="material-icons"> trending_up </span>
+                <p>투자정보</p>
+                <h1>15,400</h1>
+                <h2>
+                  전일대비<strong><span class="material-icons"> arrow_drop_down </span>250</strong>
+                </h2>
+                <h2>
+                  등락률 <strong><span class="material-icons"> arrow_drop_down </span> -1.6</strong>
+                </h2>
+              </div>
+            </li>
+            <li class="listItem">
+              <div>
+                <span class="material-icons">home</span>
+                <p>설립일</p>
+                <h1 class="number1983">1983</h1>
+                <h2><strong>1983</strong>년 <strong>10</strong>월 설립되어</h2>
+                <h2><strong>2007</strong>년 <strong>1</strong>월 상장기업으로 성장</h2>
+              </div>
+            </li>
+            <li class="listItem">
+              <div>
+                <span class="material-icons">percent</span>
+                <p>매출액</p>
+                <h1 class="count">
+                  <p class="number5">5</p>
+                  ,
+                  <p class="number634">634</p>
+                </h1>
+                <h2>매년 지속적인 성장을 통해 (2021년 기말 기준)</h2>
+                <h2>약 5,634억 원의 매출액을 기록했습니다.</h2>
+              </div>
+            </li>
+            <li class="listItem">
+              <div>
+                <span class="material-icons"> people_alt </span>
+                <p>임직원</p>
+                <h1 class="number496">496</h1>
+                <h2>모든 임직원이 새로운</h2>
+                <h2>캠트로닉스를 만들어갑니다.</h2>
+              </div>
+            </li>
+          </ul>
+          <div class="bottomImg">
+            <ul>
+              <li>
+                <p>윤리경영</p>
+                <span>캠트로닉스는 공정하고 올바른 행동을 할 수 있도록 실천하고 있습니다</span>
+              </li>
+              <li>
+                <p>고객문의</p>
+                <span>고객과 함께 내일을 꿈꾸는 기업, 켐트로닉스</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div id="section04">
+          <div class="title">
+            <h1>Public Relations</h1>
+            <h2>고객을 위해 다양한 혁신을 시도하는 Chemtronics 이야기를 소개합니다.</h2>
+          </div>
+          <div class="sec04Swiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <div>
+                  <h1>자율주행 강자 켐트로닉스, 美<br />LA서 옴니링크 V2X 시스템 선봬</h1>
+                  <h3>
+                    자율주행 강자 켐트로닉스, 美LA서 옴니링크 V2X 시스템<br />
+                    선봬 'ITS World Congress 2022'참가
+                  </h3>
+                  <p>2022-09-28</p>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div>
+                  <h1>[테크코리아 2022]백순권<br />켐트로닉스 전무 "ADAS와 V2X...</h1>
+                  <h3>[테크코리아 2022]백순권<br />켐트로닉스 전무 "ADAS와 V2X<br />연계로 완전자율주행 기술 가속화"</h3>
+                  <p>2022-09-21</p>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div>
+                  <h1>[테크코리아 우리가 이끈다]<br />켐트로닉스</h1>
+                  <h3>[테크코리아 우리가 이끈다]켐트로닉스</h3>
+                  <p>2022-09-18</p>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div>
+                  <h1>[미리 보는 테크코리아] 부품<br />디스플레이 대전환 기술 '총출동'</h1>
+                  <h3>19일부터 사흘간 온-오프라인 개최무인화-지능화 변화 물결 포착</h3>
+                  <p>2022-09-15</p>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div>
+                  <h1>[서치 e종목] 켐트로닉스,<br />자율주행차 수요 증가로 V2X...</h1>
+                  <h3>[서치 e종목] 켐트로닉스,자율주행차 수요 증가로 V2X 제품 수혜 입을까</h3>
+                  <p>2022-08-03</p>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div>
+                  <h1>위츠, 전기차 유.무선충전<br />통합제어 모듈 개발 나선다</h1>
+                  <h3>코스닥 상장사 켐트로닉스의 자회사인 위츠(대표 김보균.김응태)가 미래 고성장 분야인 전기차 충전사업에서 핵심기술 개발에 속도를 내고 있다.</h3>
+                  <p>2022-06-21</p>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div>
+                  <h1>(주)켐트로닉스,<br />금산교육사랑장학금 5000만 원...</h1>
+                  <h3>(주)켐트로닉스, 금산교육사랑장학금 5000만 원 후원</h3>
+                  <p>2022-04-14</p>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div>
+                  <h1>글로벌 전자.화학기업<br />'켐트로닉스',Cisco Meraki로...</h1>
+                  <h3>글로벌 전자.화학기업 '켐트로닉스', Cisco Meraki로 전세계 주요 거점 10개 사업장 통합 관리 나서출처:CISCO (고객사례 공개자료)</h3>
+                  <p>2022-04-04</p>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div>
+                  <h1>켐트로닉스, 현대오토에버<br />자율주행 사업에 V2X 공급</h1>
+                  <h3>켐트로닉스, 현대오토에버 자율주행 사업에 V2X 공급-새만금에 군집 자율주행 테스트베드 조성-선두 차량 인식해 뒷 차량 안전거리 유지</h3>
+                  <p>2022-02-13</p>
+                </div>
+              </li>
+              <li class="swiper-slide">
+                <div>
+                  <h1>일본이 수출 막은 그원료...<br />국산화 해냈다</h1>
+                  <h3>일본이 수출 막은 그원료...국산화 해냈다 - 반도체 핵심원료인 'PGMEA '켐트로닉스 '자체생산' 쾌거 日 규제 후 3년만에 성과 이뤄- 순도 99.999% 친환경성 갖춰 EUV 공정 재료 독립...</h3>
+                  <p>2022-02-07</p>
+                </div>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="auto"><span class="material-icons autoPlay"> play_arrow </span><span class="material-icons autoStop"> pause </span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div id="section05">
+          <div class="contents">
+            <h1>Who we are ?</h1>
+            <h2>열정과 도전으로 미래를 창조하하는 Global No.1 기업, Chemtronics</h2>
+
+            <ul class="sec05List">
+              <li>
+                <a href="#"
+                  ><p>인사제도</p>
+                  <span class="material-icons"> chevron_right </span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><p>직무소개</p>
+                  <span class="material-icons"> chevron_right </span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><p>채용공고</p>
+                  <span class="material-icons"> chevron_right </span></a
+                >
+              </li>
+            </ul>
+
+            <button class="sec05btn">
+              <p>입사지원서 다운로드</p>
+              <span class="material-icons"> file_download </span>
+            </button>
+          </div>
+          <div class="img">
+            <img src="../images/main/main_recruit_img.jpg" alt="켐트로닉스 입사지원서 사진" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="footer">
+        <footer class="footer">
+          <ul class="ft01">
+            <li>
+              <ul class="ft01txt">
+                <li>기업소개</li>
+                <li>사이트맵</li>
+                <li>개인정보처리방침</li>
+                <li>원격근무솔루션</li>
+              </ul>
+            </li>
+            <li>
+              <img src="../images/layout/logo.png" alt="켐트로닉스 로고" />
+            </li>
+          </ul>
+          <ul class="ft02">
+            <li>
+              <ul class="ft02txt">
+                <li>본사 <span>세종특별자치시 전동면 배일길 31</span></li>
+                <li>Tel <span>031-776-7690 </span></li>
+                <li>Fax <span>031-776-7691</span></li>
+              </ul>
+            </li>
+            <li>
+              <p class="copyright">© 2020 <strong>CHEMTRONICS</strong> All Rights Reserved.</p>
+            </li>
+          </ul>
+        </footer>
+      </section>
+    </main>
+  </body>
+
+  <script>
+    Splitting();
+
+    // ⭐header부분 마우스 enter시 style 변경
+    $("#header .listItem ").on("mouseenter", function () {
+      $("#header").addClass("depth01On");
+    });
+    $("#header .listItem ").on("mouseleave", function () {
+      $("#header").removeClass("depth01On");
+    });
+
+    // ⭐header depth02부분 마우스 enter시 style 변경
+    $("#header .listItem .depth02Txt ul li ").on("mouseenter", function () {
+      $(this).css("color", "#ed1c24");
+    });
+    $("#header .listItem .depth02Txt ul li ").on("mouseleave", function () {
+      $(this).css("color", "#888");
+    });
+
+    // ⭐utilMenu 클릭시 선택시 펼쳐지는 이벤트 부여
+
+    const family = $(".utilMenu ul .family");
+    const kor = $(".utilMenu ul .kor");
+
+    family.on("click", function () {
+      family.toggleClass("open");
+    });
+    family.on("mouseleave", function () {
+      family.removeClass("open");
+    });
+
+    kor.on("click", function () {
+      kor.toggleClass("open");
+    });
+    kor.on("mouseleave", function () {
+      kor.removeClass("open");
+    });
+
+    // ⭐ 햄버거 메뉴 클릭시 서브 메뉴 펼쳐지는 효과
+    $(".spanMenu").on("click", function () {
+      $(this).toggleClass("subClick");
+      $(".subMenu").toggleClass("subMenuOn");
+      if ($(".subMenu").hasClass("subMenuOn")) {
+        $(".subMenu").removeClass("subMenuOff");
+      } else {
+        $(".subMenu").addClass("subMenuOff");
+      }
+    });
+
+    // ⭐ mainVisaul 스와이퍼 이벤트 부여
+    const mainSwiper = new Swiper("#mainVisual", {
+      effect: "fade",
+      speed: 1000,
+      loopedSlides: 1,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      scrollbar: {
+        el: ".swiper-scrollbar",
+        hide: false,
+        draggable: true,
+      },
+      on: {
+        activeIndexChange: function () {
+          if (this.realIndex === 0) {
+            $(".loadingList li:nth-child(1) span").addClass("loadingBar");
+            $(".loadingList li span").not($(".loadingList li:nth-child(1) span")).removeClass("loadingBar");
+          } else if (this.realIndex === 1) {
+            $(".loadingList li:nth-child(2) span").addClass("loadingBar");
+            $(".loadingList li span").not($(".loadingList li:nth-child(2) span")).removeClass("loadingBar");
+          } else if (this.realIndex === 2) {
+            $(".loadingList li:nth-child(3) span").addClass("loadingBar");
+            $(".loadingList li span").not($(".loadingList li:nth-child(3) span")).removeClass("loadingBar");
+          } else if (this.realIndex === 3) {
+            $(".loadingList li:nth-child(4) span").addClass("loadingBar");
+            $(".loadingList li span").not($(".loadingList li:nth-child(4) span")).removeClass("loadingBar");
+          }
+        },
+      },
+    });
+
+    $("#mainVisual .auto").on("click", function () {
+      $("#mainVisual .auto").toggleClass("pause");
+      if ($("#mainVisual .auto").hasClass("pause")) {
+        mainSwiper.autoplay.stop();
+      } else {
+        mainSwiper.autoplay.start();
+      }
+    });
+
+    // ⭐ seciton02 swiper부분
+    new Swiper(".sec02Swiper", {
+      effect: "slide",
+      loopedSlides: 1,
+      speed: 1000,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+    });
+
+    // ⭐ seciton04 swiper부분
+    let sec04Swiper = new Swiper(".sec04Swiper", {
+      effect: "slide",
+      loopedSlides: 1,
+      speed: 1000,
+      slidesPerView: 3,
+      loop: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    $("#section04 .auto").on("click", function () {
+      $("#section04 .auto").toggleClass("pause");
+      if ($("#section04 .auto").hasClass("pause")) {
+        sec04Swiper.autoplay.stop();
+      } else {
+        sec04Swiper.autoplay.start();
+      }
+    });
+
+    // ⭐ 전체 페이지 fullpage 관련 이벤트
+
+    $("#main").fullpage({
+      navigation: true,
+      showActiveTooltip: true,
+      scrollingSpeed: 700,
+
+      onLeave(origin, destination, direction, trigger) {
+        if (destination.index == 2 && direction == "down") {
+          $(function () {
+            let cnt0 = 1850;
+            counterFn();
+            function counterFn() {
+              id0 = setInterval(count0Fn, 5);
+
+              function count0Fn() {
+                cnt0++;
+                if (cnt0 > 1983) {
+                  clealnterval(id0);
+                } else {
+                  $(".number1983").text(cnt0);
+                }
+              }
+            }
+          });
+          $(function () {
+            let cnt0 = 0;
+            counterFn();
+            function counterFn() {
+              id0 = setInterval(count0Fn, 180);
+
+              function count0Fn() {
+                cnt0++;
+                if (cnt0 > 5) {
+                  clealnterval(id0);
+                } else {
+                  $(".number5").text(cnt0);
+                }
+              }
+            }
+          });
+          $(function () {
+            let cnt0 = 550;
+            counterFn();
+            function counterFn() {
+              id0 = setInterval(count0Fn, 10);
+
+              function count0Fn() {
+                cnt0++;
+                if (cnt0 > 634) {
+                  clealnterval(id0);
+                } else {
+                  $(".number634").text(cnt0);
+                }
+              }
+            }
+          });
+          $(function () {
+            let cnt0 = 400;
+            counterFn();
+            function counterFn() {
+              id0 = setInterval(count0Fn, 10);
+
+              function count0Fn() {
+                cnt0++;
+                if (cnt0 > 496) {
+                  clealnterval(id0);
+                } else {
+                  $(".number496").text(cnt0);
+                }
+              }
+            }
+          });
+        }
+
+        if (destination.index == 2 || destination.index == 4) {
+          $("#fp-nav ul li a").addClass("activebk");
+        } else {
+          $("#fp-nav ul li a").removeClass("activebk");
+        }
+
+        if (destination.index == 5) {
+          $("#fp-nav").addClass("displayNone");
+        } else {
+          $("#fp-nav").removeClass("displayNone");
+        }
+      },
+    });
+
+    $.fn.fullpage.moveTo(4);
+  </script>
+</html>

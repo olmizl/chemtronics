@@ -1,0 +1,54 @@
+.fullBody {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fp-watermark {
+  display: none;
+}
+
+#fp-nav.displayNone {
+  display: none;
+}
+#fp-nav.fp-right {
+  right: auto;
+  left: 40px;
+}
+#fp-nav ul li {
+  margin-bottom: 15px;
+}
+#fp-nav ul li:hover a.active span,
+#fp-nav ul li:hover a span {
+  height: 5px;
+  width: 5px;
+  margin: -2px;
+}
+#fp-nav ul li a {
+  padding: 4px;
+}
+#fp-nav ul li a.active {
+  border: 1px solid #fff;
+  border-radius: 100%;
+}
+#fp-nav ul li a.active.activebk {
+  border: 1px solid #222;
+}
+#fp-nav ul li a.active.activebk span {
+  background-color: #222;
+}
+#fp-nav ul li a.active span {
+  margin: -2px;
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+}
+#fp-nav ul li a span {
+  width: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 5px;
+}
+
+.fp-overflow {
+  overflow-y: hidden;
+}
